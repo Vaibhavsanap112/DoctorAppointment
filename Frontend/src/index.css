@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.active hr {
+  @apply block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom theme variables should be added inside tailwind.config.js */
