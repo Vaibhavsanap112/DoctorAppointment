@@ -7,7 +7,7 @@ import Login from "./pages/Login";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import MyProfile from "./pages/MyProfile";
-import MyAppoiontments from "./pages/MyApoitment";
+import MyAppoitment from "./pages/MyApoitment";
 import Appoitment from "./pages/Appoitment";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
@@ -29,8 +29,8 @@ function App() {
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/my-profile" element={<MyProfile></MyProfile>}></Route>
         <Route
-          path="/my-appoitments"
-          element={<MyAppoiontments></MyAppoiontments>}
+          path="/my-appointments"
+          element={< MyAppoitment></ MyAppoitment>}
         ></Route>
         <Route
           path="/appointment/:docId"
