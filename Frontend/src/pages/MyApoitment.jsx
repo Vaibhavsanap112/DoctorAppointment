@@ -8,7 +8,7 @@ function MyApoitment() {
       <p className='pb-3 mt-12 font-medium text-zinc-700 border-b'>MY Appoitment</p>
       <div>
         {
-          doctors.slice(0,2).map((item,index)=>(
+          doctors.slice(0,3).map((item,index)=>(
             <div className='grid grid-cols-[1fr_2fr] gap-4 sm:flex sm-gap-6 py-2 border=b' key={index}>
               <div>
                 <img className='w-32 bg-indigo-50' src={item.image} alt="" />
@@ -23,8 +23,8 @@ function MyApoitment() {
               </div><div>
               </div>
               <div className='flex flex-col gap-2 justify-end'>
-                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded'>Pay Online</button>
-                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded'>Cancel Appoitnment</button>
+                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded hover:bg-[#5f6fff] hover:text-white transition-all duration-300'>Pay Online</button>
+                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded  hover:bg-red-600 hover:text-white transition-all duration-300k'>Cancel Appoitnment</button>
               </div>
             </div>
           ))
